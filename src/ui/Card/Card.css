@@ -1,0 +1,36 @@
+.card {
+  width: 300px;
+  background-color: var(--bg);
+  border-radius: 5px;
+}
+
+.card__img {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__bgImg {
+  height: 250px;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(10px);
+}
+
+.card img {
+  height: 250px;
+  object-fit: contain;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+.card img:hover{
+    scale: 1.1;
+}
+
+.card__info {
+  padding: 2rem 1rem;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+:root {
+  --bg: #f2f2f2;
+}
+
+body {
+  background-color: var(--bg);
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  margin: auto;
+}
+
+h4,
+p, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}

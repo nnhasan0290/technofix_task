@@ -1,0 +1,61 @@
+.usrForm {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.add__user {
+  padding: 0.7rem;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.add__user:hover {
+  background-color: black;
+}
+
+.usrForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.usrForm input {
+  padding: 1rem;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--bg);
+  box-sizing: border-box;
+}
+
+.usrForm input:focus {
+  border: 1px solid gray;
+}
+
+.avatar__area {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.usrForm input[type="submit"] {
+    background-color: gray;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.usrForm input[type="submit"]:hover {
+    background-color: black;
+ 
+}
