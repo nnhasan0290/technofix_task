@@ -1,0 +1,10 @@
+.link{
+    text-align: center;
+    cursor: pointer;
+    color: blue;
+    transition: all 0.3s ease;
+}
+
+.link:hover{
+    text-decoration: underline;
+}

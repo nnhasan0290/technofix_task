@@ -42,9 +42,37 @@
 
 .avatar__area {
   display: flex;
+  /* justify-content: center; */
+  position: relative;
+  width: 200px !important;
+}
+
+.avatar__area::after{
+  position: absolute;
+  content: "Upload";
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  color: white;
+  display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 0 1rem;
+  justify-content: center;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.avatar__area:hover.avatar__area::after{
+  opacity: 1;
+  visibility: visible;
+}
+
+.avatar__area__img{
+  width: 200px;
+  height: 200px;
 }
 
 .usrForm input[type="submit"] {
@@ -53,9 +81,15 @@
   text-transform: uppercase;
   transition: all 0.3s ease;
   cursor: pointer;
+  width: 200px;
 }
 
 .usrForm input[type="submit"]:hover {
     background-color: black;
  
+}
+
+
+.red_border{
+  border: 1px solid red !important;
 }
