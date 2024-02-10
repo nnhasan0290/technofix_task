@@ -7,7 +7,7 @@ const UserDetails = () => {
     state: { users },
   } = ConsumeContext();
   const params = useParams();
-  const user = users.find((user) => user.id == params.id);
+  const user = users.find((user) => user.id.toString() === params.id.toString());
 
   if (!user) return;
   return (

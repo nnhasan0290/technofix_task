@@ -11,10 +11,10 @@
   align-items: center;
 }
 
-.heading__sort{
-    display: flex;
-    gap: .5rem;
-    align-items: center;
+.heading__sort {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 .heading select {
@@ -31,18 +31,16 @@
   border-radius: 20px;
   align-items: center;
   justify-content: end;
-  
 }
 .heading_form .text {
-    width: 100%;
-    max-width: 300px;
+  width: 100%;
+  max-width: 300px;
   border: none;
   outline: none;
   height: 40px;
   border-radius: 20px 0 0 20px;
-  padding-left:2rem;
+  padding-left: 2rem;
   background-color: var(--bg);
-  
 }
 
 .search__btn {
@@ -57,9 +55,8 @@
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 624px) {
-  .heading__sort{
+  .heading__sort {
     display: none;
   }
 }
